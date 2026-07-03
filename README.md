@@ -1,6 +1,7 @@
 # LEMP_stack
 Stack LEMP testato su Rocky Linux 10.2
 
+```bash
 sudo dnf update
 sudo dnf install -y php php-cli php-fpm php-mysqlnd php-gd php-mbstring php-xml php-curl php-zip php-opcache php-bcmath php-intl php-soap
 sudo systemctl enable --now php-fpm.service
@@ -29,3 +30,4 @@ sudo tar -xzf latest.tar.gz
 sudo mv wordpress html
 sudo cp wp-config-sample.php wp-config.php
 sudo mv /var/www/html/wordpress/* /var/www/html/
+```
