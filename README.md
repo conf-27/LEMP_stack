@@ -1,5 +1,5 @@
 # LEMP_stack
-Stack LEMP testato su Rocky Linux 10.2
+Stack LEMP testato su Rocky Linux 10.2, rimanda a pagina di installazione wordpress
 
 ```bash
 sudo dnf update
